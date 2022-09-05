@@ -2,11 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build public/index.html --out-dir build --no-source-maps",
-    "dev": "node src/server.js & parcel public/index.html",
     "start": "node src/server.js"
   },
   "keywords": [],
